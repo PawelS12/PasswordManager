@@ -4,9 +4,10 @@
 class UserInterface {
 public:
     UserInterface();
-    void showMenu();
-    void handleMenu();
-    void handleAddPassword();
+    void show_menu();
+    void handle_menu();
+    void handle_add_password();
+    void handle_generate_password();
 };
 
 #endif // USERINTERFACE_H

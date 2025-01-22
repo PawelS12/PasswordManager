@@ -11,10 +11,13 @@ private:
     string password;
     time_t created;
 public:
+    Password();
     Password(string site, string password);
-    time_t getCreationTime() const;
-    string getSite() const;
-    string getPassword() const;
+    time_t get_creation_time() const;
+    string get_site() const;
+    string get_password() const;
+    void set_password(const string& password); 
+    void show_password() const;
 };
 
 #endif // PASSWORD_H
